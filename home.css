@@ -11,22 +11,24 @@ body{
     
 }
 
-.hero-background{
-    width: 100%;
-    height: 1000px;
+.hero{
+    background-image: url("images/Fond Blanc élégant Avec Des Lignes Brillantes _ Vecteur Gratuite 1.png");
 }
 
 .hero-text{
-    position: absolute;
+    position: relative;
     top: 12%;
     background: none;
     border-style: none;
-    left: 19%;
-    right: 19%;
+    margin-left: 15%;
+    margin-right: 15%;
 
 }
 .nav-bar{
-    margin-left: 20%;
+    margin-left: 16%;
+}
+.nav-item{
+    padding-left: 20px;
 }
 .card-title{
     font-size: 52px;
@@ -52,30 +54,38 @@ body{
     color: white;
     font-weight: bolder;
     padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 .btn-outline{
     border-color: #143AA2;
     color: #143AA2;
     font-weight: bolder;
     padding: 10px;
+    padding-right: 30px;
+    margin-bottom: 10px;
 }
 .btn-filled-secondary{
     color: #143AA2;
     background-color: white;
     font-weight: bolder;
     padding: 10px;
+    margin-bottom: 10px;
 }
 .btn-filled-tertiary{
     color: white;
     background-color: #3E8DE3;
     font-weight: bolder;
     padding: 10px;
+    margin-bottom: 10px;
 }
 .btn-outline-secondary{
     border-color: white;
     color: white;
     font-weight: bolder;
     padding: 10px;
+    padding-right: 30px;
+    margin-bottom: 10px;
 }
 .text-box{
     padding-top: 50px;
@@ -90,11 +100,11 @@ body{
 
 .about{
 
-   padding-top: 20%;
+   padding-top: 50px;
    background-color: #143AA2;
    color: white;
-   padding-left: 20%;
-   padding-right: 20%;
+   padding-left: 15%;
+   padding-right: 15%;
    padding-bottom: 100px;
 }
 .item{
@@ -111,8 +121,11 @@ body{
 h2{
     font-weight: bolder;
 }
+h5{
+    font-weight: bold;
+}
 .hyper{
-    color:#143AA2;
+    color:#3E8DE3;
 }
 h3{
     color: black;
@@ -189,13 +202,7 @@ h3{
 .overlay{
     color: white;
 }
-.card-img-overlay{
-    margin-top: 10%;
-    margin-left: 600px;
-    margin-right: 600px;
-    border-style: none;
-    background: none;
-}
+
 h1{
     font-weight: bolder;
     font-size: 48px;
@@ -227,14 +234,31 @@ h1{
 .head{
     margin-bottom: 52px;
 }
+.CTA{
+    background-image: url("images/cta-background-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+    border-radius: 20px;
+}
 .cta{
     border-style: none;
     background: none;
+}
+.cta-text{
+    position: relative;
+    top: 12%;
+    background: none;
+    border-style: none;
+
 }
 .FAQs{
     margin-top: 80px;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 80px;
 }
 .collapsible {
   background-color: white;
@@ -261,6 +285,7 @@ h1{
 
 .collapsible:after {
   content: '\2304';
+  font-size: 24px;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -268,6 +293,7 @@ h1{
 
 .actives:after {
   content: "\2303";
+  font-size: 24px;
   
 }
 
@@ -282,6 +308,9 @@ h1{
   color: #424242;
   margin-top: 8px;
 }
+.collapsible.actives + .content {
+    max-height: none
+  }
 .info{
     display: flex;
     justify-content: flex-start;
@@ -321,16 +350,34 @@ h1{
     text-decoration: none;
     list-style: none;
 }
-.footer-foot{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer{
-    margin-left: 7%;
-    margin-right: 8%;
-    margin-top: 20px;
-}
+
 .infor{
     margin-top: 80px;
+}
+@media only screen and (min-width: 600px) {
+    .footer-foot{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    .footer{
+        margin-left: 7%;
+        margin-right: 8%;
+        margin-top: 20px;
+    }
+    .inv{
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
+    .CTA{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 80px;
+        padding: 5%;
+    }
+    .carousel-inner{
+        margin-left: 12%;
+        margin-top: 40px;
+    }
 }
