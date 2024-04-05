@@ -651,5 +651,16 @@ h1{
       margin-left: 1%;
       margin-top: 40px;
   }
+
+ /*added this code for the tab section*/
+  .nav.nav-pills {
+    background-color: #F1F5F9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+  }
   
 }
