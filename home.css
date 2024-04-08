@@ -403,6 +403,11 @@ h1{
 .nav.nav-pills{
     background-color: #F1F5F9;
     border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
 }
 .nav-link{
     background: none;
@@ -677,6 +682,15 @@ h1{
       margin-left: 1%;
       margin-top: 40px;
   }
+  .nav.nav-pills{
+    background-color: #F1F5F9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
   .nav-link.top{
     background-color: #F1F5F9;
     color: #94A3B8;
@@ -705,10 +719,10 @@ h1{
     .nav-link.top{
       background-color: #F1F5F9;
       color: #94A3B8;
-      padding: 10px;
+      padding: 5px;
       padding-left: 5px;
       padding-right: 5px;
-      font-size: 9px;
+      font-size: 10px;
       font-weight: bold;
   }
   .tabs{
