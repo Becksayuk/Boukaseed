@@ -366,8 +366,8 @@ h1{
 .solutions{
     padding-top: 80px;
     padding-bottom: 25px;
-    padding-left:20%;
-    padding-right: 20%;
+    padding-left:15%;
+    padding-right: 15%;
     background-image: url("images/Fond Blanc élégant Avec Des Lignes Brillantes _ Vecteur Gratuite 1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -414,9 +414,23 @@ h1{
 }
 .solution-item{
     border-bottom-color: #16A34A;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .inv-image{
-    margin-top: 300px;
+    margin-top: 40px;
+}
+.finance{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.card-tabs{
+    background-color: #F1F5F9;
+    padding: 20px;
+    border-style: none;
 }
 @media only screen and (min-width: 1000px) {
     .footer-foot{
