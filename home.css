@@ -1,0 +1,750 @@
+body{
+    background-color: white;
+    font-family: 'poppins';
+}
+
+.cameroon-flag{
+   margin-top: 6px;
+}
+.form-select{
+    border-style: none;
+    background: none;
+    color: #475569;
+    
+}
+
+.hero{
+    background-image: url("images/Fond Blanc élégant Avec Des Lignes Brillantes _ Vecteur Gratuite 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    position: relative;
+    top: 12%;
+    background: none;
+    border-style: none;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.navbar-nav{
+    margin-left: 100px;
+}
+.nav-bar{
+    margin-left: 16%;
+}
+.nav-item{
+    padding-left: 8px;
+}
+.card-title{
+    font-size: 52px;
+    font-weight: 100;
+    line-height: 64px;
+    color: #334415;
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 10;
+    color: #475569;
+}
+
+.card{
+    display: flex; 
+    align-items: start;
+    padding: 20px;
+}
+
+.btn-filled{
+    background-color: #143AA2;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.btn-outline{
+    border-color: #143AA2;
+    color: #143AA2;
+    font-weight: bolder;
+    padding: 10px;
+    padding-right: 22px;
+    padding-left: 22px;
+    margin-bottom: 10px;
+}
+.btn-filled-secondary{
+    color: #143AA2;
+    background-color: white;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn-filled-tertiary{
+    color: white;
+    background-color: #3E8DE3;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn-outline-secondary{
+    border-color: white;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    padding-right: 22px;
+    padding-left: 22px;
+    margin-bottom: 10px;
+}
+.text-box{
+    padding-top: 50px;
+}
+
+.icon-height{
+    height: 100px;
+    background-color: rgb(62, 141, 227, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.about{
+
+   padding-top: 50px;
+   background-color: #143AA2;
+   color: white;
+   padding-left: 16%;
+   padding-right: 16%;
+   padding-bottom: 100px;
+}
+.item{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.descrip{
+    color: #F1F5F9;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+h2{
+    font-weight: bolder;
+}
+h5{
+    font-weight: bold;
+}
+.hyper{
+    color:#3E8DE3;
+}
+h3{
+    color: black;
+    font-weight: bold;
+}
+
+.investor{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: none;
+    border-style: none;
+
+}
+.inv{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.star{
+    background-color: rgb(62, 141, 227, 0.2);
+    padding: 4px;
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-top: 8px;
+    
+}
+.invest{
+    margin-top: 80px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 20px;
+}
+.start{
+    padding: 4px;
+    border-radius: 100%;
+    margin-right: 20px;
+    
+    
+}
+.testimonials{
+    background-color: #143AA2;
+    padding: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.carousel-inner{
+    
+    margin-top: 40px;
+}
+
+.itms{
+    margin-left: 20px;
+}
+.xy{
+    background: none;
+    color: white;
+    border-style: none;
+}
+.carousel-item{
+    color: white;
+}
+.name{
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.infos{
+    font-size: 52px;
+}
+.overlay{
+    color: white;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 65px;
+}
+.cta-button{
+    margin-top: 40px;
+}
+.carousel-control-prev-icon{
+    border-color: white;
+    border-radius: 100%;
+    
+}
+.team-role{
+    color: #16A34A;
+}
+.team{
+    margin-top: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+.team-image{
+    height: 224px;
+    width: 224px;
+    border-radius: 100%;
+    margin: 20px;
+}
+.head{
+    margin-bottom: 52px;
+}
+.CTA{
+    background-image: url("images/cta-background-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+.cta{
+    border-style: none;
+    background: none;
+}
+.cta-text{
+    position: relative;
+    top: 12%;
+    background: none;
+    border-style: none;
+
+}
+.FAQs{
+    margin-top: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 80px;
+}
+.collapsible {
+  background-color: white;
+  color: #424242;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-radius: 8px;
+  border-top-style: none;
+  border-bottom-color: #CBD5E1;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.actives, .collapsible:hover {
+  background-color: #143AA2;
+  color: white;
+}
+
+.collapsible:after {
+  content: '\2304';
+  font-size: 24px;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.actives:after {
+  content: "\2303";
+  font-size: 24px;
+  
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  font-weight: normal;
+  font-size: 16px;
+  color: #424242;
+  margin-top: 8px;
+}
+.collapsible.actives + .content {
+    max-height: none
+  }
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 20px;
+}
+.nom{
+    margin-left: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.contact{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10%;
+    background-color: #143AA2;
+    border-style: none;
+    color: white;
+
+}
+.cont{
+    color: white;
+}
+.form-control{
+    color: #4160B3;
+    background-color: #4160B3;
+    border: none;
+}
+.contact-us{
+    margin-bottom: 40px;
+}
+.form-label{
+    font-weight: bolder;
+}
+.foot-item{
+    text-decoration: none;
+    list-style: none;
+}
+
+.infor{
+    margin-top: 80px;
+}
+.solutions{
+    padding-top: 80px;
+    padding-bottom: 25px;
+    padding-left:20%;
+    padding-right: 20%;
+    background-image: url("images/Fond Blanc élégant Avec Des Lignes Brillantes _ Vecteur Gratuite 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sol{
+    color: #3E8DE3;
+}
+.solu{
+    margin-left:25%;
+    margin-right: 25%;
+    margin-bottom: 52px;
+}
+.solution{
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+}
+.tabs{
+    margin-bottom: 32px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.nav-link.active{
+    background-color: #143AA2 !important; 
+}
+.nav-link.top{
+    background-color: #F1F5F9;
+    color: #94A3B8;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav.nav-pills{
+    background-color: #F1F5F9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.nav-link{
+    background: none;
+}
+.solution-item{
+    border-bottom-color: #16A34A;
+}
+.inv-image{
+    margin-top: 50px;
+}
+@media only screen and (min-width: 1000px) {
+    .footer-foot{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    .footer{
+        margin-left: 7%;
+        margin-right: 8%;
+        margin-top: 20px;
+    }
+    .inv{
+        margin-left: 15%;
+        margin-right: 15%;
+        
+    }
+    .CTA{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 80px;
+        padding: 2%;
+    }
+    .carousel-inner{
+        margin-left: 12%;
+        margin-top: 40px;
+    }
+    
+}
+
+@media only screen and (max-width: 1420px) {
+    .inv{
+        margin-left: 2%;
+        margin-right: 2%;
+        
+    }
+    .nav-bar{
+        margin-left: 2%;
+    }
+    .hero-text{
+        position: relative;
+        top: 40%;
+        background: none;
+        border-style: none;
+        margin-left: 2%;
+        margin-right: 2%;
+    
+    }
+    .about{
+
+        padding-top: 50px;
+        background-color: #143AA2;
+        color: white;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 100px;
+     }
+     .CTA{
+        background-image: url("images/cta-background-img.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 80px;
+        border-radius: 20px;
+    }
+    .solutions{
+        padding-top: 80px;
+        padding-bottom: 25px;
+        padding-left:2%;
+        padding-right: 2%;
+        background-image: url("images/Fond Blanc élégant Avec Des Lignes Brillantes _ Vecteur Gratuite 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .team{
+        margin-top: 80px;
+        padding-left: 2%;
+        padding-right: 2%;
+        
+    }
+    .contact{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: #143AA2;
+        border-style: none;
+        color: white;
+    
+    }
+    .FAQs{
+        margin-top: 80px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 80px;
+    }
+    .carousel-inner{
+        margin-left: 2%;
+        margin-top: 40px;
+    }
+    .inv-image{
+        margin-top: 12px;
+    }
+    .solu{
+        margin-left:5%;
+        margin-right: 5%;
+        margin-bottom: 52px;
+    }
+    .solution{
+        background-color: white;
+        padding: 10px;
+        align-items: center;
+    }
+    .tabs{
+        margin-bottom: 32px;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+@media only screen and (min-width: 1750px) {
+    
+    .carousel-inner{
+        margin-left: 22%;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 1750px) {
+    .tabs{
+        margin-bottom: 32px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .carousel-inner{
+        margin-left: 22%;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .carousel-inner{
+      margin-left: 22%;
+      margin-top: 40px;
+  }
+  .CTA{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+    padding: 2%;
+}
+.team{
+    margin-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.FAQs{
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 80px;
+}
+.solutions{
+    padding-top: 80px;
+    padding-bottom: 25px;
+    padding-left:5%;
+    padding-right: 5%;
+    background-image: url("images/Fond Blanc élégant Avec Des Lignes Brillantes _ Vecteur Gratuite 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #143AA2;
+    border-style: none;
+    color: white;
+
+}
+.inv{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.hero-text{
+    position: relative;
+    top: 20%;
+    background: none;
+    border-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.about{
+
+    padding-top: 50px;
+    background-color: #143AA2;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 100px;
+ }
+ .tabs{
+    margin-bottom: 32px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+}
+
+@media only screen and (max-width: 1025px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+      .carousel-inner{
+        margin-left: 12%;
+        margin-top: 40px;
+    }
+    .moo{
+        display: none;
+    }
+    .hero-text{
+        position: relative;
+        top: 2%;
+        background: none;
+        border-style: none;
+        margin-left: 2%;
+        margin-right: 2%;
+    
+    }
+    .tabs{
+        margin-bottom: 32px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .navbar-nav{
+        margin-left: 2px;
+    }
+    .nav-item{
+        padding-left: 2px;
+        font-size: 14px;
+    }
+    .form-select{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 740px) {
+  .nav-link.top{
+    background-color: #F1F5F9;
+    color: #94A3B8;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}.moo{
+    display: none;
+}
+
+}
+@media only screen and (max-width: 540px) {
+    .carousel-inner{
+      margin-left: 1%;
+      margin-top: 40px;
+  }
+  .nav.nav-pills{
+    background-color: #F1F5F9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+  .nav-link.top{
+    background-color: #F1F5F9;
+    color: #94A3B8;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.tabs{
+    margin-bottom: 32px;
+    padding-left: 15%;
+   
+}
+.moo{
+    display: none;
+}
+
+.infor{
+    margin-top: -15px;
+}
+
+}
+@media only screen and (max-width: 380px) {
+ 
+    .nav-link.top{
+      background-color: #F1F5F9;
+      color: #94A3B8;
+      padding: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 14px;
+      font-weight: bold;
+  }
+  .tabs{
+      margin-bottom: 32px;
+      padding-left: 15%;
+     
+  }
+  
+  }
+@media screen and (max-width: 480px) {
+    .card-title.overlay{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .card-text.overlay{
+        font-size: 14px;
+    }
+    .footer{
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .text-box{
+        margin-top: -20px;
+    }
+}
