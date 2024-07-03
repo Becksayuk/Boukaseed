@@ -12,6 +12,17 @@ body{
     color: #475569;
     
 }
+.card-figures{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.figure{
+    color: #143AA2;
+}
 
 .hero{
     background-image: url("images/Fond Blanc élégant Avec Des Lignes Brillantes _ Vecteur Gratuite 1.png");
@@ -135,6 +146,12 @@ h5{
 }
 .hyper{
     color:#3E8DE3;
+}
+.hyper-text{
+    color:#3E8DE3;
+    margin-top: 40px;
+    margin-bottom:-20px;
+    font-size: 12px;
 }
 h3{
     color: black;
