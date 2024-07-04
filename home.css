@@ -13,16 +13,23 @@ body{
     
 }
 .card-figures{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    border-style: none;
-    display: flex;
+    padding-bottom: 70px;
+    background-color:#F1F5F9;
+    display: center;
     justify-content: center;
     align-items: center;
 }
 .figure{
     color: #143AA2;
 }
+.profit{
+
+    padding-top: 70px;
+    background-color: #F1F5F9;
+    padding-left: 30%;
+    padding-right: 15%;
+ }
+
 
 .hero{
     background-image: url("images/Fond Blanc élégant Avec Des Lignes Brillantes _ Vecteur Gratuite 1.png");
@@ -131,8 +138,11 @@ body{
     font-size: 16px;
     font-weight: bolder;
     margin-top: 10px;
+    color: #334155;
 }
-
+.finance{
+    color: #475569;
+}
 .descrip{
     color: #F1F5F9;
     font-weight: lighter;
@@ -151,7 +161,7 @@ h5{
     color:#3E8DE3;
     margin-top: 40px;
     margin-bottom:-20px;
-    font-size: 12px;
+    font-size: 14px;
 }
 h3{
     color: black;
@@ -227,6 +237,8 @@ h3{
 }
 .overlay{
     color: white;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 h1{
@@ -361,8 +373,17 @@ h1{
 .cont{
     color: white;
 }
+.sel{
+    color: white;
+    background-color: #4160B3;
+    border-radius:8px ;
+    
+}
+.form-select{
+    color: white;
+}
 .form-control{
-    color: #4160B3;
+    color: white;
     background-color: #4160B3;
     border: none;
 }
@@ -378,7 +399,7 @@ h1{
 }
 
 .infor{
-    margin-top: 80px;
+    margin-top: 160px;
 }
 .solutions{
     padding-top: 80px;
@@ -431,8 +452,10 @@ h1{
 }
 .solution-item{
     border-bottom-color: #16A34A;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.1);
     padding-left: 10px;
     padding-right: 10px;
+    border-style: none;
 }
 .inv-image{
     margin-top: 40px;
@@ -445,15 +468,18 @@ h1{
 
 }
 .card-tabs{
-    background-color: #F1F5F9;
     padding: 20px;
     border-style: none;
+}
+.footer-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 @media only screen and (min-width: 1000px) {
     .footer-foot{
         display: flex;
-        justify-content: start;
-        align-items: start;
+        
     }
     .footer{
         margin-left: 7%;
