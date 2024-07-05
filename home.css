@@ -8,10 +8,9 @@ body{
 }
 .form-select{
     border-style: none;
-    background: none;
-    color: #475569;
-    
+     
 }
+
 .card-figures{
     padding-bottom: 70px;
     background-color:#F1F5F9;
@@ -207,14 +206,15 @@ h3{
 .testimonials{
     background-color: #143AA2;
     padding: 80px;
-    padding-left: 10%;
-    padding-right: 10%;
     color: white;
 }
 
 .carousel-inner{
-    
+    margin-left: 10px !important;
+    padding-left: 20%;
+    margin-right: 0 !important;
     margin-top: 40px;
+    
 }
 
 .itms{
@@ -379,9 +379,7 @@ h1{
     border-radius:8px ;
     
 }
-.form-select{
-    color: white;
-}
+
 .form-control{
     color: white;
     background-color: #4160B3;
@@ -471,11 +469,7 @@ h1{
     padding: 20px;
     border-style: none;
 }
-.footer-foot{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 @media only screen and (min-width: 1000px) {
     .footer-foot{
         display: flex;
@@ -498,8 +492,7 @@ h1{
         padding: 2%;
     }
     .carousel-inner{
-        margin-left: 12%;
-        margin-top: 40px;
+        margin: 0 !important;
     }
     
 }
@@ -593,6 +586,25 @@ h1{
         padding-left: 25%;
         padding-right: 25%;
     }
+    .card-figures{
+        padding-bottom: 70px;
+        background-color:#F1F5F9;
+        display: center;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+    }
+    .figure{
+        color: #143AA2;
+    }
+    .profit{
+    
+        padding-top: 70px;
+        background-color: #F1F5F9;
+        padding-left: 10%;
+        padding-right: 10%;
+     }
+    
 }
 @media only screen and (min-width: 1750px) {
     
@@ -601,7 +613,7 @@ h1{
         margin-top: 40px;
     }
 }
-@media only screen and (max-width: 1750px) {
+@media only screen and (max-width: 2050px) {
     .tabs{
         margin-bottom: 32px;
         padding-left: 15%;
@@ -610,6 +622,9 @@ h1{
     .carousel-inner{
         margin-left: 22%;
         margin-top: 40px;
+    }
+    .foot-text{
+        padding-top: 20px;
     }
 }
 
@@ -691,8 +706,8 @@ h1{
         width: 100%;
       }
       .carousel-inner{
-        margin-left: 12%;
-        margin-top: 40px;
+        margin: 0 !important;
+        padding: 1%;
     }
     .moo{
         display: none;
@@ -732,12 +747,20 @@ h1{
 }.moo{
     display: none;
 }
-
+.footer-foot{
+    display: flex;
+    justify-content: start;
+    align-items:start;
+}
+.carousel-inner{
+    margin-right: 0 !important;
+  
+}
 }
 @media only screen and (max-width: 540px) {
     .carousel-inner{
-      margin-left: 1%;
-      margin-top: 40px;
+      margin-right: 0 !important;
+      
   }
   .nav.nav-pills{
     background-color: #F1F5F9;
@@ -770,6 +793,14 @@ h1{
     margin-top: -15px;
 }
 
+.profit{
+
+    padding-top: 70px;
+    background-color: #F1F5F9;
+    padding-left: 15%;
+    padding-right: 15%;
+ }
+ 
 }
 @media only screen and (max-width: 380px) {
  
@@ -787,15 +818,29 @@ h1{
       padding-left: 15%;
      
   }
-  
+  .carousel-inner{
+    margin: 0 !important;
+
+}
   }
 @media screen and (max-width: 480px) {
     .card-title.overlay{
-        font-size: 32px;
+        font-size: 40px;
         line-height: 40px;
     }
     .card-text.overlay{
         font-size: 14px;
+    }
+    .overlay{
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .CTA{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 80px;
+        padding: 2%;
     }
     .footer{
         margin-top: 32px;
@@ -803,5 +848,9 @@ h1{
     }
     .text-box{
         margin-top: -20px;
+    }
+    .carousel-inner{
+        margin: 0 !important;
+    
     }
 }
